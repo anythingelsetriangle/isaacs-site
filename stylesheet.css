@@ -9,7 +9,6 @@
         src: url(SuisseWorks-Regular-WebS.woff2);
     }
 }
-
 .h2 {
     color: var(--contrast-strong);
     font-size: 38px;
@@ -20,7 +19,6 @@
         src: url();
     }
 }
-
 .h3 {
     color: var(--contrast-strong);
     font-size: 22px;
@@ -31,7 +29,6 @@
         src: url();
     }
 }
-
 .h4 {
     color: var(--contrast-strong);
     font-size: 18px;
@@ -42,7 +39,6 @@
         src: url();
     }
 }
-
 .p {
     color: var(--contrast-strong);
     font-size: 16px;
