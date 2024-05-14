@@ -1,12 +1,57 @@
-.h1 h1 {
+/* Type styles */
+.h1 {
     color: var(--contrast-strong);
-    @font-face {
-        font-family: "suisse-works";
-        src: url(suisse-files/SuisseWorks-Book.otf);
-    }
     font-size: 80px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 140%;
+    @font-face {
+        font-family: "suisse-works", serif;
+        src: url(SuisseWorks-Regular-WebS.woff2);
+    }
+}
+
+.h2 {
+    color: var(--contrast-strong);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 140%;
+    @font-face {
+        font-family: "suisse-works", serif;
+        src: url();
+    }
+}
+
+.h3 {
+    color: var(--contrast-strong);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 140%;
+    @font-face {
+        font-family: "suisse-works", serif;
+        src: url();
+    }
+}
+
+.h4 {
+    color: var(--contrast-strong);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    @font-face {
+        font-family: "suisse-intl", sans-serif;
+        src: url();
+    }
+}
+
+.p {
+    color: var(--contrast-strong);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    @font-face {
+        font-family: "suisse-works", serif;
+        src: url();
+    }
 }
 
 /* Variables */
