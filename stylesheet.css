@@ -1,0 +1,26 @@
+.h1 h1 {
+    color: var(--contrast-strong);
+    @font-face {
+        font-family: "suisse-works";
+        src: url(suisse-files/SuisseWorks-Book.otf);
+    }
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 140%;
+}
+
+/* Variables */
+
+light-mode {
+    --bg: #FFF;
+    --contrast-strong: #000;
+    --contrast-subtle: #414141;
+
+    /* button */
+    --button-bg: #f8f8f8;
+    --button-contrast: #000;
+    --button-hover-bg:#dedede;
+    --buton-active-bg:fff;
+    --button-active-contrast: #000;
+    --button-button-border: 000;
+}
