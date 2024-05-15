@@ -1,0 +1,40 @@
+/* ---------- Shared ----------  */
+.h1,
+.h2,
+.h3,
+.h4,
+.p{
+    color: var(--contrast-strong);
+}
+
+/* ---------- Styles ----------  */
+.h1 {
+    font-family: "suisse-works", "Cambria", serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: var(--lh-heading);
+}
+.h2 {
+    font-family: "suisse-works", "Cambria", serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: var(--lh-heading);
+
+}
+.h3 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: var(--lh-heading);
+}
+.h4 {
+    font-family: "suisse-intl", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: var(--lh-default);
+}
+.p {
+    font-family: "suisse-works";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: var(--lh-compact);
+}

@@ -1,0 +1,10 @@
+/* Accordian */
+.accordian {
+    background-color: var(--button-bg);
+    color: var(--button-contrast);
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: var(button-border);
+    transition: 0.4s;
+}

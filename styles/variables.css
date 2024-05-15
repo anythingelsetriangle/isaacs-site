@@ -1,0 +1,48 @@
+/* ---------- Color ----------  */
+:root,
+.light-mode {
+    /* page */
+    --bg: #FFF;
+    --contrast-strong: #000;
+    --contrast-subtle: #414141;
+
+    /* button */
+    --button-bg: #f8f8f8;
+    --button-contrast: #000;
+    --button-hover-bg:#dedede;
+    --buton-active-bg:fff;
+    --button-active-contrast: #000;
+    --button-button-border: #000;
+}
+.dark-mode {
+    /* page */
+    --bg: #000;
+    --contrast-strong: #fff;
+    --contrast-subtle: #DADADA;
+
+    /* button */
+    --button-bg:#1A1A1A;
+    --button-contrast:#FFF;
+    --button-hover-bg:#5757;
+    --buton-active-bg:#000;
+    --button-active-contrast:#FFF;
+    --button-button-border:#FFF;
+}
+
+/* ---------- Type ----------  */
+:root,
+.type {
+    /* line height */
+    --lh-compact: 120%;
+    --lh-default: 140%;
+    --lh-heading: 160%;
+}
+
+@font-face {
+    font-family: "suisse-works";
+    src: url(./SuisseWorks-Regular-WebS.woff2) format("woff2");
+}
+@font-face {
+    font-family: "suisse-intl";
+    src: url(./SuisseIntl-Regular-WebS.woff2) format("woff2");
+}
