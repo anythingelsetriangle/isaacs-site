@@ -1,61 +1,6 @@
-/* ---------- Type ----------  */
-
-.h1 {
-    color: var(--contrast-strong);
-    font-size: 80px;
-    font-weight: 400;
-    line-height: 140%;
-    @font-face {
-        font-family: "suisse-works", serif;
-        src: url(SuisseWorks-Regular-WebS.woff2);
-    }
-}
-.h2 {
-    color: var(--contrast-strong);
-    font-size: 38px;
-    font-weight: 400;
-    line-height: 140%;
-    @font-face {
-        font-family: "suisse-works", serif;
-        src: url(SuisseWorks-Regular-WebS.woff2);
-    }
-}
-.h3 {
-    color: var(--contrast-strong);
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 140%;
-    @font-face {
-        font-family: "suisse-works", serif;
-        src: url(SuisseWorks-Regular-WebS.woff2);
-    }
-}
-.h4 {
-    color: var(--contrast-strong);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 140%;
-    @font-face {
-        font-family: "suisse-intl", sans-serif;
-        src: url(SuisseIntl-Regular-WebS.woff2);
-    }
-}
-.p {
-    font-family: "suisse-works";
-    color: var(--contrast-strong);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 160%;
-    @font-face {
-        font-family: "suisse-works", serif;
-        src: url(SuisseWorks-Regular-WebS.woff2);
-    }
-}
-
-
 /* ---------- Variables ----------  */
-
-light-mode {
+:root,
+.light-mode {
     /* page */
     --bg: #FFF;
     --contrast-strong: #000;
@@ -68,4 +13,65 @@ light-mode {
     --buton-active-bg:fff;
     --button-active-contrast: #000;
     --button-button-border: 000;
+}
+.dark-mode {
+    /* page */
+    --bg: #000000;
+    --contrast-strong: #fff;
+    --contrast-subtle: #DADADA;
+
+    /* button */
+    --button-bg:#1A1A1A;
+    --button-contrast:#FFFFFF;
+    --button-hover-bg:#575757;
+    --buton-active-bg:#000000;
+    --button-active-contrast:#FFF;
+    --button-button-border:#FFF;
+}
+
+/* ---------- Type ----------  */
+
+@font-face {
+    font-family: "suisse-works";
+    src: url(./SuisseWorks-Regular-WebS.woff2) format("woff2");
+}
+@font-face {
+    font-family: "suisse-intl";
+    src: url(./SuisseIntl-Regular-WebS.woff2) format("woff2");
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.p{
+    color: var(--contrast-strong);
+}
+.h1 {
+    font-family: "suisse-works", "Cambria", serif;
+    font-size: 80px;
+    line-height: 140%;
+}
+.h2 {
+    font-family: "suisse-works", "Cambria", serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 140%;
+}
+.h3 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 140%;
+}
+.h4 {
+    font-family: "suisse-intl", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.p {
+    font-family: "suisse-works";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
 }
