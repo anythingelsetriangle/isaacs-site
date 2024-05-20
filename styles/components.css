@@ -5,6 +5,20 @@
     cursor: pointer;
     width: 100%;
     text-align: left;
-    border: var(button-border);
+    border-bottom: 1px;
+    border-right: 1px;
+    border-left: 1px;
     transition: 0.4s;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 16px;
+    padding-left: 16px;
+
+}
+.accordian:hover{
+    background-color: var(--button-hover-bg);
+}
+.panel{
+    display: none;
+    overflow: hidden;
 }
